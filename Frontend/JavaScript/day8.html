@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+
+    // Certainly! Here are multiple examples of arrays in JavaScript:
+    
+    // 1. Array of Numbers:
+    // // javascript
+    let numbers = [1, 2, 3, 4, 5];
+    console.log(numbers)
+    
+    // 2. Array of Strings:
+    // ```javascript
+    let fruits = ["apple", "banana", "orange", "grape"];
+    console.log(fruits[2])
+    
+    // // 3. Array of Boolean Values:
+    // // javascript
+    let flags = [true, false, true, false];
+    console.log(flags[0])
+    // // 
+    
+    // // 4. Array of Mixed Data Types:
+    // // javascript
+    let mixed = [1, "apple", true, [1, 2, 3], { name: "John", age: 25 }];
+    console.log(mixed)
+    // // 
+    
+    const abhishek = [1,2, 'ashish']
+    console.log(abhishek)
+    
+    // // 5. Array of Objects:
+    // // javascript
+    let students = [
+      { name: "Alice", age: 20, major: "Computer Science" },
+      { name: "Bob", age: 22, major: "Engineering" },
+      { name: "Charlie", age: 21, major: "Mathematics" },
+      {Number: 2303, branch: 'IT'}
+    ];
+    
+    console.log(students)
+    
+    students["DateofBirth"]='12 aug 2023';
+    students["Branch"]='IT';
+    students["Rollno"]=450;
+    students[4]= {Address: 'narendra nagar'};
+    
+    console.log(students)
+    // // 
+    
+    // // 6. Empty Array:
+    // // javascript
+    let emptyArray = [];
+    emptyArray.push(4)
+    emptyArray.push("ashish")
+    emptyArray.push("Ramchandra")
+    emptyArray.push({Name: 'ashish', DateofBirth: '12 aug 2030'})
+    emptyArray.push("phabhakar")
+    console.log(emptyArray)
+    
+    
+    // // example 2
+    var emptyArrays = [];
+    emptyArrays.push(1); // Adds 1 to the array
+    emptyArrays.push(2); // Adds 2 to the array
+    console.log(emptyArrays); // Output: [1, 2]
+    
+    // // 
+    
+    // // 7. Array with Initial Length:
+    // // javascript
+    let arrayWithLength = new Array(2); // Creates an array with length 5
+    console.log(arrayWithLength)
+    // // 
+    
+    // // 8. Array Methods:
+    // // // javascript
+    let numbers1 = [1, 2, 3, 4, 5, 6, 7, 8];
+    numbers1.push(6); // Add an element to the end of the array
+    numbers1.pop(); // Remove the last element from the array
+    numbers1.length; // Get the length of the array
+    numbers1.indexOf(3); // Find the index of an element in the array
+    numbers1.slice(3, 4); // Extract a portion of the array
+    
+    console.log(numbers1.slice(3, 8))
+    // // 
+    
+    // // // These are just a few examples to demonstrate the versatility of arrays in JavaScript. Arrays are widely used in programming to store and manipulate collections of data. They provide letious methods and properties for working with the elements within the array.
+    
+    
+    
+    //         // Define an array of student names
+    let studentNames = ["Alice", "Bob", "Charlie", "David", "Emily"];
+    
+    // Accessing elements in the array
+    console.log(studentNames[4]); // Output: "Alice"
+    console.log(studentNames[2]); // Output: "Charlie"
+    
+    // Modifying an element in the array
+    studentNames[1] = "Ben"; // Update the second element to "Ben"
+    
+    // Adding elements to the array
+    studentNames.push("Fiona"); // Add "Fiona" to the end of the array
+    
+    // Removing elements from the array
+    studentNames.pop(); // Remove the last element from the array
+    
+    // Finding the length of the array
+    console.log(studentNames.length); // Output: 5
+    
+    // Iterating over the elements of the array
+    for (let i = 0; i < studentNames.length; i++) {
+      console.log(studentNames[i]);
+    }
+    
+    
+    let rice = ["Grocery", "another item", "can add something else her"];
+    let number12 = [1,23,4,4,5,5,4,4]
+    
+    
+    let mixture = [1222, 3, 332, 444, "sting name", 'string another', null, undefined];
+    // console.log(mixture);
+    
+    
+    console.log(number12);
+    console.log(rice[2]);
+    
+    mixture[3] = 2310;
+    
+    console.log(typeof mixture);
+    console.log(Array.isArray(mixture));
+    
+    // adding to array 
+    mixture.push("mango")
+    console.log(mixture)
+    
+    // removing from array
+    mixture.pop();
+    console.log(mixture.pop());
+    console.log(mixture);
+    
+    // will popout and print in console
+    let poppedOut = mixture.pop();
+    console.log(mixture);
+    console.log("Popped out is", poppedOut)
+    
+    
+    // unshift will add up on front up on the array
+    mixture.unshift("Adding something");
+    mixture.unshift(90);
+    console.log(mixture);
+    
+    </script>
+</body>
+</html>
+
